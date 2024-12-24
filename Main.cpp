@@ -8,7 +8,7 @@ using namespace std;
 Animal* createRandomAnimal() {
 	int type = 0;
 	type = rand() % 8;
-
+	 
 	switch (type)
 	{
 	case 0: return new Dog();

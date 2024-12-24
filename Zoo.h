@@ -6,7 +6,7 @@ using namespace std;
 
 class Zoo {
 private:
-
+     
     Animal* animals[10] = {}; // 동물 객체를 저장하는 포인터 배열
     int animalCount = 0;
 

@@ -13,7 +13,7 @@ public:
 	// 가상 소멸자를 사용해 파생 클래스의 소멸자도 호출해 메모리 누수 방지
 	virtual ~Animal() {}
 };
-
+ 
 class Dog : public Animal {
 public:
 	// override를 사용해 파생 클래스임을 명시
