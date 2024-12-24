@@ -37,6 +37,7 @@ int main()
 {
 	// 필수기능
 	// Animal 타입의 포인터 배열을 선언해 Dog, Cat, Cow를 원소로 선언
+	cout << "==========필수 기능입니다.==========" << endl;
 	Animal* myAnimal[] = {
 		new Dog(),
 		new Cat(),
@@ -52,6 +53,9 @@ int main()
 	for (int i = 0; i < sizeof(myAnimal) / sizeof(myAnimal[0]); i++) {
 		delete myAnimal[i];
 	}
+
+	cout << "====================================" << endl;
+	cout << "==========도전 기능입니다.==========" << endl;
 
 	srand((unsigned int)time(NULL));
 	int numberOfAnimals = 0;
